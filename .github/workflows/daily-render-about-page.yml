@@ -26,10 +26,11 @@ jobs:
         with:
           r-version: '4.5.1'
 
-      - name: Install R packages
-        run: |
-          Rscript -e 'install.packages("scholar", dependencies = TRUE)'
-          Rscript -e 'install.packages("quarto")'
+      - name: Restore R packages from renv.lock
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
+
 
       - name: Render about.qmd to docs/
         run: quarto render about.qmd --output-dir docs
