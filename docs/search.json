@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\nlibrary(scholar)\n\n\n id &lt;- \"Vkg8k1sAAAAJ&hl\"\n \n citations &lt;- get_citation_history(id)\n \n \n \n sum(citations$cites)\n\n[1] 1472\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "About this site\n\nlibrary(scholar)\n\n\n id &lt;- \"Vkg8k1sAAAAJ&hl\"\n \n citations &lt;- get_citation_history(id)\n\nWarning in get_scholar_resp(url, attempts_left - 1): Cannot connect to Google\nScholar. Is the ID you provided correct?\n\n sum(citations$cites)\n\n[1] 0\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html#teaching-focus",
