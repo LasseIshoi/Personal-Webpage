@@ -1,0 +1,41 @@
+---
+title: "Lasse Ishøi, PhD"
+image: "images/profile-pic.png"  # Replace with your image file
+about:
+  template: trestles
+  image-width: 30em
+  image-shape: round
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/lassesogaard
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/lassesogaard
+    - icon: linkedin
+      href: https://www.linkedin.com/in/lasse-ish%C3%B8i-19954bb3/
+      text: LinkedIn
+    - icon: envelope
+      text: Email
+      href: mailto:lasse.ishoei@gmail.com
+format:  
+  html:
+    page-layout: full
+    grid:
+      body-width: 1500px       # Wider than default
+      margin-width: 50px      # Narrower margin
+      gutter-width: 1rem       # Optional: tighter spacing
+    css: styles.css
+---
+
+Hi, and welcome to my personal webpage!
+
+I am a clinical researcher with a background in sport science and physiotherapy with a great interest in hip/groin and hamstring injuries, and data analytics.
+
+I serve as the Head of Sport and Data Science in Football Club Nordsjælland, a Danish premier league football club with associated youth academies in Denmark and Ghana (rated as one of the world’s best academies according to Scouted Football), where I focus on structured data collection and associated analyses to support desicion-making processes. As part of this position, I have developed Power Apps for streamlined data collection, Power BI and R Shiny Dashboards for reporting, and also been involved in developing an SQL database.
+
+I also work as postdoctoral researcher at the Sports Orthopedic Research Center - Copenhagen (SORC-C) at Hvidovre Hospital; an International Olympic Committee (IOC) research center centered around prevention, diagnostics and treatment of musculoskeletal problems.
+
+I completed my PhD in 2022 at SORC-C entitled “Femoroacetabular Impingement Syndrome: Patient Acceptable Symptom State, Return t Sport, and Hip Muscle Strength After Hip Arthroscopy”.
+
+## Main Competencies

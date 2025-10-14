@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "LI Sport and Clinical Science"
+  favicon: "images/site_logo.png"
+  google-analytics: "G-5G95J1R6X1"
+  back-to-top-navigation: true
+  navbar:
+    logo: "images/site_logo.png"
+   # background: grey
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - posts.qmd
+  page-footer:
+    background: "#c5c5d1"
+    center: 
+      - text: "{{< fa regular copyright >}} {{< fa solid circle-user >}} CC BY 4.0 |2025 | Lasse Ishøi"
+        href: https://creativecommons.org/licenses/by/4.0/deed.en
+
+format:
+  html:
+    theme: simplex
+    toc: false
+    page-layout: full
+    css: styles.css
+
+
+editor: visual
+
