@@ -26,7 +26,7 @@ format:
     theme: simplex
     toc: false
     page-layout: full
-    css: styles.css
+    css: styles/styles.css
 
 
 editor: visual

@@ -25,7 +25,7 @@ format:
       body-width: 1500px       # Wider than default
       margin-width: 50px      # Narrower margin
       gutter-width: 1rem       # Optional: tighter spacing
-    css: styles.css
+    css: styles/styles.css
 ---
 
 Hi, and welcome to my personal webpage!
