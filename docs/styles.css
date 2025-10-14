@@ -3,12 +3,21 @@
 /* Apply background color to the entire page */
 
 body {
+<<<<<<< HEAD
  /* background-image: url("images/background.jpeg");*/
  /*  background-size: cover;*/
  /*  background-repeat: no-repeat;*/
   /* background-position: center center;*/
   /* background-attachment: fixed; */
-  background-color: #e5e4e1
+  background-color: #e5e4e2
+=======
+  background-image: url("images/background.jpeg");*/
+  background-size: cover;*/
+  background-repeat: no-repeat;*/
+  background-position: center center;*/
+  background-attachment: fixed; */
+  background-color: #e5e4e2
+>>>>>>> 2f6bfed8715c51aa688368fcb97a2df01d717725
 }
 
 
