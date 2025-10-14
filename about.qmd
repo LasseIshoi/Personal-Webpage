@@ -5,5 +5,17 @@ title: "About"
 About this site
 
 ```{r}
-1 + 1
+library(scholar)
+
+
+ id <- "Vkg8k1sAAAAJ&hl"
+ 
+ citations <- get_citation_history(id)
+ 
+ 
+ 
+ sum(citations$cites)
 ```
+
+\
+\
